@@ -1,0 +1,42 @@
+{
+  "name": "ieuk23",
+  "version": "1.0.0",
+  "description": "Sustainability Webapp",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "next -p 7777",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test jest --watch",
+    "test-win": "SET NODE_ENV=test&& jest --watch",
+    "heroku-postbuild": "next build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.7.15",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-transition-group": "^4.4.6",
+    "apollo": "^2.34.0",
+    "apollo-boost": "^0.1.16",
+    "apollo-client": "^2.4.2",
+    "apollo-upload-client": "^17.0.0",
+    "graphql": "^14.0.2",
+    "next": "^12.0.0",
+    "next-with-apollo": "^5.3.0",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^2.9.0",
+    "styled-components": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/apollo-upload-client": "^17.0.2",
+    "@types/node": "^20.2.5",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^16.8.0",
+    "graphql-tools": "^4.0.0",
+    "typescript": "^5.1.3"
+  }
+}
